@@ -9,7 +9,7 @@ const RecipientList = ({
 	handleSelect,
 }: {
 	recipients: Recipient[];
-	handleSelect: (select: Recipient[]) => void;
+	handleSelect: (recips: Recipient[]) => void;
 }) => {
 	const [domains, setDomains] = useState<Map<string, DomainName>>(new Map());
 
